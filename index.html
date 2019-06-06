@@ -5,29 +5,45 @@
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
-    <div>
+<body style="background: url(./assets/images/interlaced.png);">
 
-        <h2>Garrett K Nafey</h2>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ffffff; border-bottom: 20px; border-color: #777777;">
+              
+            <div class="container">
+            <a class="navbar-brand" style="background-color: #4aaaa5; padding: 10px 10px; font-family: 'Georgia', Times, Times New Roman, serif;" href="#"><strong>Garrett K Nafey</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link align-content-end" style="position: relative; right: -1250%; color:#777777;" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link align-content-end" style="position: relative; right: -975%; color:#777777;" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link align-content-end" style="position: relative; right: -1050%; color:#777777;" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
 
-    </div>
 
-    <nav>
 
-        <a href="#">About</a>
+        <div class="container" style="background-color:#ffffff; position: relative; top: 40px; padding:20px;">
+                        
+                
+              
 
-        <a href="portfolio.html">Porfolio</a>
-
-        <a href="contact.html">Contact</a>
-
-    </nav>
-    
     <jumbotron>
 
         <h2>About Me</h2>
 
         <p>
-                I am studying to become a full stack web developer. My goal is to obtain a job
+               <img class="float-left float-top img-fluid " src="./assets/images/myphoto.png" style="padding: 20px;"> <span>I am studying to become a full stack web developer. My goal is to obtain a job
                
                 where I can work full time and remotely.  I participated in a Christian 
                
@@ -45,16 +61,15 @@
 
                 industry if possible. Another one of my aspirations is to learn Japanese, and possibly 
                 
-                Italian.  
+                Italian.</span>
         </p>
 
     </jumbotron>
+    </div>
 
-    <footer>
-        <h3>Copyright ©</h3>
+    <footer class="fixed-bottom">
+        <h3 class="text-center" style="font-size: 15px; padding:40px 0 10px 0; color: rgb(190, 190, 190); border-top: 8px solid #4aaaa5; background: #666666;">Copyright ©</h3>
     </footer>
-
-
 
 </body>
 </html>
